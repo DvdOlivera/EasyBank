@@ -1,0 +1,378 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    background-color: white;
+    display:flex;
+}
+.ulclass{
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    height: 70px;
+    display: flex;
+
+}
+#logo{
+    padding-left: 150px;
+    padding-right:200px;
+}
+
+
+
+
+.barra {
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:hsl(233, 9%, 65%) ;
+    font-size: 15px;
+    font-family: 'Public Sans', sans-serif;
+    text-decoration:none;
+    margin: 0px 15px 0px 15px ;
+}
+   
+
+.container ul li :hover{
+    opacity: 1.0;
+}
+.tareas {
+   
+    display: inline-block;
+    height: 100%;
+    background-color: white;
+   
+}
+.tareas :hover{
+    color: hsl(233, 26%, 24%);     
+    border-bottom: solid 5px;
+    border-image: linear-gradient( 90deg ,  rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%) 1;
+}
+
+
+#filmina{
+    width: 100%;
+    
+   
+    z-index: 1;
+    margin: 0px;
+    position: relative;
+    display: flex;
+}
+#next{
+
+    padding-top: 200px;
+    width: 60%;
+    padding-left: 150px;
+    
+    text-align: left;
+}
+#derecha{
+    background-repeat: no-repeat;
+    bottom: 200px;
+    background-image: url("images/bg-intro-desktop.svg");
+    width: 60%;
+    position: relative;
+    
+}
+#idcelulares{
+
+    overflow: hidden;
+    width:890px ;
+    left: 550px ;
+    bottom: 220px;
+    z-index: 3;
+    position:relative;
+    display: flex;
+}
+#posicioncelulares{
+    z-index:0;
+    padding-left: 200px;
+    padding-top:150px;
+}
+#take{
+    opacity: 0.7;
+    line-height:25px;
+    padding-left: 150px;
+    width: 70%;
+}
+#izquierda{
+
+    width: 40%;
+}
+#parrafonext{
+    font-weight: 400;
+    
+    font-size: 45px;
+    
+}
+#chose{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    display: block;
+    justify-content: left;
+    width: 100%;
+  
+    background-color: whitesmoke;
+    bottom: 350px;
+    
+
+ 
+}
+#why{
+    padding-top: 80px;
+    padding-left: 150px;
+    font-size: 30px;
+    
+
+}
+#leverage{
+    opacity: 0.7;
+    padding-left: 150px;
+    width: 600px;
+}
+p{
+    color:hsl(233, 26%, 24%);
+    font-family: 'Public Sans', sans-serif;
+}
+#botonrequest{
+    outline:none;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    text-align: center;
+    border: 0px solid ;
+    border-radius: 40px;
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+}
+.botonN :hover{
+    opacity: 0.5;
+}
+.botonN{ 
+    padding-right: 50px;
+    width: 100%;  
+    display: flex;
+    justify-content: flex-end;
+}
+#botonrequestpos{
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.botonN2 :hover{
+    opacity: 0.5;
+}
+#filminafototext{
+    width:75%;
+  
+    padding-left: 150px;
+    display: flex;
+}
+.fotot{
+    
+    width: 25%;
+    height: 350px;
+    padding: 0;
+    margin: 15px;
+
+}
+.fototarreglo2{
+    width: 25%;
+    height: 350px;
+    padding: 0;
+    margin: 15px 15px 15px 0px ;
+}
+
+.textobotones{
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 24px;
+}
+.textobotones2{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+#segundafilmina{
+    background-color:hsl(0, 0%, 98%) ;
+    padding: 0;
+    margin: 0;
+    display: block;
+    justify-content: left;
+    position: relative;
+    width: 100%;
+    bottom: 350px;
+    height: 700px;
+ 
+}
+
+.adaptarimagen{
+    
+    overflow: hidden;
+    height: 180px;
+}
+
+.filminatextochico{
+    margin: auto;
+    width: 80%;
+    
+}
+
+.verde :hover{
+    color: hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+
+.textobotones3{
+    
+    font-weight: 400;
+    
+    font-size: 16px;
+}
+.textobotones4{
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+.fotot2{
+    background-color: white;
+    width: 240px;
+    height: 400px;
+    padding: 0;
+    margin: 15px;
+}
+.fototarreglo{
+    background-color: white;
+    width: 240px;
+    height: 400px;
+    padding: 0;
+    margin: 15px 15px 15px 0px ;
+}
+.autor{
+    padding-top: 20px;
+    font-size: 10px;
+    width: 80%;
+    margin: auto;
+    opacity: 0.7;
+}
+#last{
+    position: relative;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+#last p{
+    font-size: 35px;
+}
+#footerdiv{
+    position: relative;
+    bottom: 250px;
+    height: 200px;
+    background-color:hsl(233, 26%, 24%) ;
+}
+#filmina1{
+    
+    padding-left: 150px;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+.menubar{
+    display: none;
+
+}
+
+#filmina2{
+    padding-left: 150px;
+}
+#imagenmovil{
+    display: none;
+}
+#celular1{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+@media all and (max-width: 375px){
+    
+    
+    .tareas{
+        display: none;
+    }
+    .botonN{
+        display: none;
+    }
+    .menubar{
+        display: block;
+        
+    
+    }
+
+    #logo{
+    padding-left: 20px;
+    padding-right: 200px;
+    
+    }
+    #imagenmovil{
+        position: relative;
+        display: block;
+        
+    }
+    #derecha{
+        display: none   ;
+    }
+    #izquierda{
+        position: relative;
+        
+        padding:0;
+    }
+    #next{
+       
+        margin: 0;
+        padding: 0;
+    }
+    #take{
+        margin: 0;
+        padding: 0;
+    }
+    #movilcelular{
+        position: relative;
+    }
+    #idcelulares{
+        display: none;
+    }
+    #chose{
+        position: relative;
+    }
+    #filmina{
+        position: relative;
+    }
+    #celular1{
+        width: 100vw;
+        display: block;
+    }
+    #movilcelular{
+       width: 100%;
+    }
+}
+
