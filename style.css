@@ -1,11 +1,12 @@
 html, body
-{
+{   background-color: white;
     width: 100%;
-    height: 100%;
+    height:auto;
     margin: 0px;
     padding: 0px;
-    
+    overflow-x: hidden;
 }
+
 
 header{
     width: 100%;
@@ -27,10 +28,6 @@ header{
     display: flex;
 
 }
-#logo{
-    padding-left: 150px;
-    padding-right:200px;
-}
 
 
 
@@ -45,7 +42,7 @@ header{
     font-size: 15px;
     font-family: 'Public Sans', sans-serif;
     text-decoration:none;
-    margin: 0px 15px 0px 15px ;
+    
 }
    
 
@@ -53,11 +50,12 @@ header{
     opacity: 1.0;
 }
 .tareas {
-   
+    height: 60px;
     display: inline-block;
-    height: 100%;
+    font-weight: 600;
     background-color: white;
-   
+    padding: 0% 1%;
+    
 }
 .tareas :hover{
     color: hsl(233, 26%, 24%);     
@@ -76,45 +74,36 @@ header{
     display: flex;
 }
 #next{
-
-    padding-top: 200px;
+    
+    padding-top: 130px;
     width: 60%;
-    padding-left: 150px;
+    padding-left: 24%;
     
     text-align: left;
 }
 #derecha{
     background-repeat: no-repeat;
-    bottom: 200px;
-    background-image: url("images/bg-intro-desktop.svg");
-    width: 60%;
-    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    
     
 }
-#idcelulares{
+#fondocolores{
+    bottom: 255px;
+    position: relative;
+    left: 500px;
+}
 
-    overflow: hidden;
-    width:890px ;
-    left: 550px ;
-    bottom: 220px;
-    z-index: 3;
-    position:relative;
-    display: flex;
-}
-#posicioncelulares{
-    z-index:0;
-    padding-left: 200px;
-    padding-top:150px;
-}
 #take{
     opacity: 0.7;
     line-height:25px;
-    padding-left: 150px;
-    width: 70%;
+    padding-left: 24%;
+  
 }
 #izquierda{
-
-    width: 40%;
+    
+    width: 50%;
 }
 #parrafonext{
     font-weight: 400;
@@ -127,33 +116,41 @@ header{
     margin: 0;
     z-index: 1;
     position: relative;
-    display: block;
+    
     justify-content: left;
     width: 100%;
-  
+    height: auto;
     background-color: whitesmoke;
-    bottom: 350px;
+    
     
 
  
 }
 #why{
+    margin:0;
+    top:30px;
     padding-top: 80px;
-    padding-left: 150px;
+    padding-left: 12%;
     font-size: 30px;
     
 
 }
 #leverage{
     opacity: 0.7;
-    padding-left: 150px;
+    padding-left: 12%;
     width: 600px;
 }
 p{
     color:hsl(233, 26%, 24%);
     font-family: 'Public Sans', sans-serif;
 }
+#logo{
+    padding-left: 12%;
+    padding-right: 18%;
+    
+    }
 #botonrequest{
+    font-weight: 600;
     outline:none;
     cursor: pointer;
     color: white;
@@ -166,40 +163,46 @@ p{
     background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
 }
 .botonN :hover{
+    transition: 300ms;
     opacity: 0.5;
 }
 .botonN{ 
-    padding-right: 50px;
+    margin-left: 20px;
+    padding-right: 13%;
     width: 100%;  
     display: flex;
     justify-content: flex-end;
 }
 #botonrequestpos{
-    padding-top: 30px;
-    padding-left: 150px;
+    
+    padding-top: 15px;
+    padding-left: 24%;
 }
-.botonN2 :hover{
+#botonrequestpos :hover{
+    transition: 300ms;
     opacity: 0.5;
 }
 #filminafototext{
-    width:75%;
-  
-    padding-left: 150px;
+    width:80%;
+    margin-top: 30px;
+    padding-left: 12%;
     display: flex;
 }
 .fotot{
     
     width: 25%;
-    height: 350px;
+    height: auto;
     padding: 0;
-    margin: 15px;
+    margin: 2%;
+    margin-bottom: 75px;
 
 }
 .fototarreglo2{
     width: 25%;
-    height: 350px;
+    height: auto;
     padding: 0;
-    margin: 15px 15px 15px 0px ;
+    margin: 2% 2% 2% 0px ;
+    margin-bottom: 75px;
 }
 
 .textobotones{
@@ -217,21 +220,23 @@ p{
     background-color:hsl(0, 0%, 98%) ;
     padding: 0;
     margin: 0;
-    display: block;
+    
     justify-content: left;
     position: relative;
     width: 100%;
-    bottom: 350px;
-    height: 700px;
+    
+    height: auto;
  
 }
 
 .adaptarimagen{
     
-    overflow: hidden;
-    height: 180px;
+ 
+    height: auto;
 }
-
+.imgbox{
+width: 100%;
+}
 .filminatextochico{
     margin: auto;
     width: 80%;
@@ -257,17 +262,19 @@ p{
 }
 .fotot2{
     background-color: white;
-    width: 240px;
-    height: 400px;
+    width: 25%;
+    height: auto;
     padding: 0;
-    margin: 15px;
+    margin: 1%;
+    margin-bottom:75px;
 }
 .fototarreglo{
     background-color: white;
-    width: 240px;
-    height: 400px;
+    width: 25%;
+    height: auto;
     padding: 0;
-    margin: 15px 15px 15px 0px ;
+    margin: 1% 1% 1% 0% ;
+    margin-bottom:75px;
 }
 .autor{
     padding-top: 20px;
@@ -279,14 +286,14 @@ p{
 #last{
     position: relative;
     padding-top: 40px;
-    padding-left: 150px;
+    padding-left: 12%;
 }
 #last p{
     font-size: 35px;
 }
 #footerdiv{
     position: relative;
-    bottom: 250px;
+    
     height: 200px;
     background-color:hsl(233, 26%, 24%) ;
 }
@@ -308,12 +315,61 @@ p{
     display: none;
 }
 #celular1{
-    display: none;
+    z-index: 2;
+    position: relative;
+   display: flex;
+   justify-content: flex-end;
+   left: 125px;
+}
+#movilcelular{
+    position: absolute;
+    
+    bottom: 220px;
+    ;
 }
 .hidden{
     display: none;
 }
-@media all and (max-width: 375px){
+.attribution{
+    position: relative;
+    
+}
+#superfilmina{
+    height: 600px;
+
+}
+
+
+@media all and (max-width:1300px){
+   
+    #parrafonext{
+        font-weight: 400;
+        
+        font-size: 30px;
+        
+    }
+    #izquierda{
+        width: 40%;
+
+    }
+    #derecha{
+        width: 60%;
+    }
+    #celular1{
+      
+        left: 325px;
+    }
+    #fondocolores{
+       
+        left: 700px;
+    }
+    #logo{
+        padding-right: 10%;
+    }
+
+}
+
+@media all and (max-width: 850px){
     
     
     .tareas{
@@ -330,13 +386,16 @@ p{
 
     #logo{
     padding-left: 20px;
-    padding-right: 200px;
     
     }
     #imagenmovil{
+        width: 100%;
         position: relative;
         display: block;
         
+    }
+    #versionmovil{
+        width: 100%;
     }
     #derecha{
         display: none   ;
