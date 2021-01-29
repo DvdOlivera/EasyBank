@@ -161,7 +161,11 @@ p{
     padding-right: 18%;
     
     }
-#botonrequest{
+
+
+    
+.botonrequest{
+    z-index: 3;
     font-weight: 600;
     outline:none;
     cursor: pointer;
@@ -173,10 +177,34 @@ p{
     width: 150px;
     height: 40px;
     background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    
 }
+
+#fondoblanco{
+    bottom:40px;
+    display: flex;
+    position: relative;
+    
+    border-radius: 40px;
+    width: 150px;
+    height: 40px;
+    background: white;
+    z-index: 1;
+
+
+}
+
+
+.botonN2 :hover{
+    transition: 300ms;
+  opacity: 0.7;
+ 
+}
+
 .botonN :hover{
     transition: 300ms;
     opacity: 0.5;
+  
 }
 .botonN{ 
     margin-left: 20px;
@@ -193,6 +221,8 @@ p{
 #botonrequestpos :hover{
     transition: 300ms;
     opacity: 0.5;
+
+    
 }
 #filminafototext{
     width:80%;
@@ -720,6 +750,7 @@ flex-direction: column;
     #botonfoo{
         padding-top: 30px;
         width: 100%;
+        
       
 }
 }
