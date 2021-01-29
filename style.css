@@ -181,10 +181,10 @@ p{
 }
 
 #fondoblanco{
-    bottom:40px;
+    
     display: flex;
     position: relative;
-    
+    bottom: 10px;
     border-radius: 40px;
     width: 150px;
     height: 40px;
@@ -351,8 +351,12 @@ width: 100%;
     color: white;
     display: flex;
 }
+#botonfoohover{
+    position: relative;
+    top: 30px;
+}
 #botonfoo{
-
+bottom: 40px;
 width: 40%;
 display: flex;
 justify-content: center;
