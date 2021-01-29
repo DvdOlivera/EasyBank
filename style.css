@@ -5,11 +5,22 @@ html, body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+
 }
 
 
 header{
     width: 100%;
+}
+
+#corregirposcelular{
+    display: none;
+  
+}
+.botonbar{
+    display:flex;
+    align-items: center;
+    padding-right: 10%;
 }
 .container{
     width: 100%;
@@ -96,6 +107,7 @@ header{
 }
 
 #take{
+    font-size: 15px;
     opacity: 0.7;
     line-height:25px;
     padding-left: 24%;
@@ -138,7 +150,7 @@ header{
 #leverage{
     opacity: 0.7;
     padding-left: 12%;
-    width: 600px;
+  
 }
 p{
     color:hsl(233, 26%, 24%);
@@ -285,23 +297,65 @@ width: 100%;
 }
 #last{
     position: relative;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-left: 12%;
 }
 #last p{
     font-size: 35px;
 }
 #footerdiv{
+
     position: relative;
-    
+    display: flex;
     height: 200px;
     background-color:hsl(233, 26%, 24%) ;
 }
+#todosloslogos{
+    margin-right:2%;
+    width: 30%;
+}
+#todaslasopciones{
+    font-family: 'Public Sans', sans-serif;
+    width: 30%;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+}
+#botonfoo{
+
+width: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+flex-direction: column;
+}
+#ladoa{
+    position: relative;
+    margin-right: 30%;
+
+   
+}
+#easyfoo{
+    margin-bottom: 40px;
+    opacity: 0.7;
+    font-size: 12px;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+}
+.opcionesfoo{
+  
+    margin-bottom: 20px;
+
+}
+.logosfoo{
+    margin-right: 3%;
+}
 #filmina1{
     
-    padding-left: 150px;
+    padding-left: 40%;
     padding-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .menubar{
     display: none;
@@ -309,7 +363,8 @@ width: 100%;
 }
 
 #filmina2{
-    padding-left: 150px;
+    padding-left: 40%;
+
 }
 #imagenmovil{
     display: none;
@@ -341,19 +396,23 @@ width: 100%;
 
 
 @media all and (max-width:1300px){
-   
+    #superfilmina{
+        padding-bottom: 70px;
+
+        height: auto;
+    }
     #parrafonext{
         font-weight: 400;
         
-        font-size: 30px;
+        font-size: 40px;
         
     }
     #izquierda{
-        width: 40%;
+        width: 50%;
 
     }
     #derecha{
-        width: 60%;
+        width: 50%;
     }
     #celular1{
       
@@ -368,10 +427,113 @@ width: 100%;
     }
 
 }
-
 @media all and (max-width: 850px){
     
+    #derecha{
+        display: none;
+    }
+  
+    #botonrequestpos{
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    #celular1{
+        display: none;
+    }
+    #izquierda{
+        width: 100%;
+        position: relative;
+        margin:5%;
+        padding:0;
+    }
+    #next{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    #parrafonext{
+        font-weight: 400;
+        display: flex;
+        text-align: center;
+        font-size: 40px;
+        
+        
+
+
+    }
+    #take{
+        display: flex;
+        justify-content: center;
+        
+        margin: 0;
+        padding: 0;
+    }
+
+
+    #parrafotake{
+       
+        display: flex;
+        text-align: center;
+    }
+
+    #logo{
+        padding-left: 4%;
+        padding-right: 3%;
+
+    }
+
+
+   
+}
+
+
+@media all and (max-width: 650px){
+
+
     
+  
+    #filmina{
+
+    }
+    #footerdiv{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+      
+    }
+    #todosloslogos{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #filmina1{
+        width: 100%;
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    #filmina2{
+        width: 100%;
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    #todaslasopciones{
+        width: 100%;
+        flex-direction: column;
+    
+    }
+    
+    #last{
+        padding: 0px;
+       
+        display: flex;
+        justify-content: center;
+    }
+   
     .tareas{
         display: none;
     }
@@ -379,7 +541,10 @@ width: 100%;
         display: none;
     }
     .menubar{
-        display: block;
+        display: flex;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
         
     
     }
@@ -390,32 +555,116 @@ width: 100%;
     }
     #imagenmovil{
         width: 100%;
-        position: relative;
-        display: block;
+       
+        display: flex;
+        flex-direction: column;
         
     }
     #versionmovil{
         width: 100%;
+       
     }
     #derecha{
         display: none   ;
     }
     #izquierda{
+        width: 100%;
         position: relative;
-        
+        margin:0% 5% 5% 5%;
         padding:0;
     }
     #next{
+        width: 100%;
        
-        margin: 0;
-        padding: 0;
+        
+        padding: 0px;
+        
+        
+    }
+    #parrafonext{
+        font-weight: 400;
+        display: flex;
+        text-align: center;
+        font-size: 40px;
+        
+        
+        
+
+
+    }
+    #parrafotake{
+       
+        display: flex;
+        text-align: center;
+    }
+    .fotot2{
+        width: 85%;
+        position: relative;
+        
+        text-align: left;
+    }
+    .fototarreglo{
+        width: 85%;
+        position: relative;
+        text-align: left;
+    }
+
+
+    .fotot{
+        width: 85%;
+        position: relative;
+        margin: 2%;
+        text-align: center;
+    }
+    .fototarreglo2{
+        width: 85%;
+        position: relative;
+        
+        text-align: center;
     }
     #take{
+        display: flex;
+        justify-content: center;
+        
         margin: 0;
         padding: 0;
     }
+
+    #filminafototext{
+        padding: 0px;
+
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    #corregirposcelular{
+        display: flex;
+        position:absolute;
+        Top :0;
+        
+        
+        
+      
+    }
+    #movilcelular2{
+        width: 100%;
+      
+       
+    }
+    #celular1{
+      
+     display: none;
+       
+    }
+    
     #movilcelular{
-        position: relative;
+        width: 100%;
+       display: block;
+    
+      
+       position: 0;
     }
     #idcelulares{
         display: none;
@@ -426,12 +675,52 @@ width: 100%;
     #filmina{
         position: relative;
     }
-    #celular1{
-        width: 100vw;
-        display: block;
+    
+    
+    #botonrequestpos{
+        padding: 0px;
+        display: flex;
+        justify-content: center;
     }
-    #movilcelular{
-       width: 100%;
+    #titulowhy{
+      display: flex;
+      justify-content: center;
     }
+    #why{
+       
+        display: flex;
+        text-align: center;
+        
+        padding-left: 0px;
+    }
+    #welever{
+        display: flex;
+        justify-content: center;
+    }
+    #leverage{
+        width: 85%;
+        display: flex;
+        text-align: center;
+        opacity: 0.7;
+        padding-left: 0%;
+      
+    }
+    #ladoa{
+        margin-right: 0px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+    }
+    #ladob{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    #botonfoo{
+        padding-top: 30px;
+        width: 100%;
+      
+}
 }
 
