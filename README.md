@@ -9,3 +9,4 @@
 + [w3schools](https://www.w3schools.com/)
 + [AOS Library](https://michalsnik.github.io/aos/)
 + [Font Awesome](https://fontawesome.com/)
++ [Frontendmentor](https://www.frontendmentor.io)
