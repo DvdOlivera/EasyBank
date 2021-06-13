@@ -1,6 +1,6 @@
 # Easybank landing page
 
-[Live DEMO](https://dvdolivera.github.io/EasyBank/)
+## [Live DEMO](https://dvdolivera.github.io/EasyBank/)
 ___
 
 + HTML5
