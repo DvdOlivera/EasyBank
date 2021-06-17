@@ -68,7 +68,7 @@ export default `<div id="about">
     </span> 
     
   
-    <p> 
+    </p> 
     <p id="parrafoAbout">
 
     <br>
@@ -77,7 +77,7 @@ export default `<div id="about">
     
     Across our personal and business accounts, we help customers improve their financial health, give them more control, and connect people seamlessly across the world.
       <br><br>
-      </p> 
+    </p> 
 
       <a id="meet" href="">Meet our leadership team </a>
       
