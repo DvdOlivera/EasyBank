@@ -1108,41 +1108,43 @@ p{
             }
 
         }
-    }
-#about{
 
-    #filminaAbout{
-        display: block;
+        #about{
 
-        #contenedorTextoAbout{
-            margin:auto;
-            padding: 100px 0px 100px 0px ;
-            text-align: center;
-            width:70%;
-            padding: 100px 0px 20px 0px;
-    
-            p {
-                padding-right: 0;
-             
+            #filminaAbout{
+                display: block;
+        
+                #contenedorTextoAbout{
+                    margin:auto;
+                    padding: 100px 0px 100px 0px ;
+                    text-align: center;
+                    width:70%;
+                    padding: 100px 0px 20px 0px;
+            
+                    p {
+                        padding-right: 0;
+                     
+                    }
+                  
+                }
+                
+                #contenedorImagenAbout {
+        
+                    margin: auto;
+                    justify-content: center;
+                    width: auto;}
+        
+                #imagenAbout{
+                    width: 70%;
+                    padding-right: 0;
+                    margin: auto;
+                }
+            
             }
-          
+        
         }
         
-        #contenedorImagenAbout {
-
-            margin: auto;
-            justify-content: center;
-            width: auto;}
-
-        #imagenAbout{
-            width: 70%;
-            padding-right: 0;
-            margin: auto;
-        }
-    
     }
-
-}
 
 
  

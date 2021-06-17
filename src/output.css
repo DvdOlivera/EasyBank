@@ -759,26 +759,25 @@ p {
   #page-content #home #celular1 {
     display: none;
   }
-
-  #about #filminaAbout {
+  #page-content #about #filminaAbout {
     display: block;
   }
-  #about #filminaAbout #contenedorTextoAbout {
+  #page-content #about #filminaAbout #contenedorTextoAbout {
     margin: auto;
     padding: 100px 0px 100px 0px;
     text-align: center;
     width: 70%;
     padding: 100px 0px 20px 0px;
   }
-  #about #filminaAbout #contenedorTextoAbout p {
+  #page-content #about #filminaAbout #contenedorTextoAbout p {
     padding-right: 0;
   }
-  #about #filminaAbout #contenedorImagenAbout {
+  #page-content #about #filminaAbout #contenedorImagenAbout {
     margin: auto;
     justify-content: center;
     width: auto;
   }
-  #about #filminaAbout #imagenAbout {
+  #page-content #about #filminaAbout #imagenAbout {
     width: 70%;
     padding-right: 0;
     margin: auto;
