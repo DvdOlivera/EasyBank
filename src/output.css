@@ -1,0 +1,999 @@
+@charset "UTF-8";
+html, body {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: "Public Sans", sans-serif;
+}
+
+.oculto {
+  display: none;
+}
+
+header {
+  width: 100%;
+}
+header .botonbar {
+  display: flex;
+  align-items: center;
+  padding-right: 10%;
+}
+header .container {
+  width: 100%;
+  position: relative;
+  z-index: 4;
+  background-color: white;
+  display: flex;
+}
+header .ulclass {
+  width: 100%;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  display: flex;
+}
+header .ulclass #logo {
+  padding-left: 12%;
+  padding-right: 18%;
+}
+header .ulclass .tareas {
+  height: 70px;
+  display: inline-block;
+  font-weight: 600;
+  background-color: white;
+  padding: 0% 1%;
+}
+header .ulclass .tareas:hover {
+  color: #2d314d;
+  border-bottom: solid 5px;
+  border-image: linear-gradient(90deg, #31d35c 0%, #2bb7da 100%) 1;
+}
+header .ulclass .botonN {
+  margin-left: 20px;
+  padding-right: 13%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+header .ulclass .botonN:hover {
+  transition: 300ms;
+  opacity: 0.5;
+}
+header .barra {
+  background: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9ea0ae;
+  font-size: 15px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 800;
+  border: none;
+}
+header .tareas {
+  height: 70px;
+  display: inline-block;
+  font-weight: 600;
+  background-color: white;
+  padding: 0% 1%;
+}
+header .tareas:hover {
+  color: #2d314d;
+  border-bottom: solid 5px;
+  border-image: linear-gradient(90deg, #31d35c 0%, #2bb7da 100%) 1;
+}
+
+#mobile-menu {
+  position: fixed;
+  z-index: 4;
+  padding-top: 10vh;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: #050b19;
+  background: linear-gradient(180deg, #050b19 0%, rgba(192, 227, 255, 0) 74%);
+}
+#mobile-menu #mobile-menu-content {
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  width: 80%;
+  color: #2d314d;
+}
+#mobile-menu #mobile-menu-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4vw;
+  font-size: 2em;
+}
+#mobile-menu #mobile-links {
+  padding: 1vw 10vw 5vw 10vw;
+  display: flex;
+  flex-direction: column;
+}
+#mobile-menu #mobile-links .mobile-menu-link {
+  font-family: "Public Sans", sans-serif;
+  font-size: 2em;
+  margin: auto;
+  padding: 0.3em 0;
+}
+#mobile-menu #mobile-links .mobile-menu-link:focus {
+  color: #31d35c;
+}
+
+#page-content {
+  height: fit-content;
+}
+#page-content #home #imagenmovil {
+  display: none;
+}
+#page-content #home #filmina {
+  width: 100%;
+  height: 600px;
+  padding-left: 12%;
+  z-index: 1;
+  margin: 0px;
+  position: relative;
+  display: flex;
+}
+#page-content #home #filmina #izquierda {
+  width: 50%;
+}
+#page-content #home #filmina #izquierda #next {
+  padding-top: 130px;
+  width: 60%;
+  text-align: left;
+}
+#page-content #home #filmina #izquierda #next #parrafonext {
+  font-weight: 400;
+  font-size: 45px;
+}
+#page-content #home #filmina #izquierda #take {
+  width: 80%;
+  font-size: 15px;
+  opacity: 0.7;
+  line-height: 25px;
+}
+#page-content #home #filmina #izquierda #botonrequestpos {
+  padding-top: 15px;
+}
+#page-content #home #filmina #derecha {
+  background-repeat: no-repeat;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+#page-content #home #filmina #derecha #fondocolores {
+  position: relative;
+  right: calc(-20em + -1vw);
+  transform: scale(1.5);
+}
+#page-content #home #chose {
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  position: relative;
+  justify-content: left;
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+}
+#page-content #home #chose #titulowhy #why {
+  margin: 0;
+  top: 30px;
+  padding-top: 80px;
+  padding-left: 12%;
+  font-size: 30px;
+}
+#page-content #home #chose #welever #leverage {
+  opacity: 0.7;
+  padding-left: 12%;
+}
+#page-content #home #chose .filminafototext .fotot {
+  width: 25%;
+  height: auto;
+  padding: 0;
+  margin: 2%;
+  margin-bottom: 75px;
+}
+#page-content #home #chose .filminafototext .fotot .textobotones {
+  font-weight: 400;
+  padding-top: 10px;
+  font-size: 24px;
+}
+#page-content #home #chose .filminafototext .fotot .textobotones2 {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+#page-content #home #segundafilmina {
+  background-color: #fafafa;
+  padding: 0;
+  margin: 0;
+  justify-content: left;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#page-content #home #segundafilmina #last {
+  position: relative;
+  padding-top: 50px;
+  padding-left: 12%;
+}
+#page-content #home #segundafilmina #last p {
+  font-size: 35px;
+}
+#page-content #home #celular1 {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  left: 125px;
+}
+#page-content #home #celular1 #movilcelular {
+  position: absolute;
+  bottom: -200px;
+}
+#page-content #blog #contenedorblog {
+  background-color: white;
+  display: flex;
+}
+#page-content #blog #contenedorblog #blogprincipal {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 60%;
+  display: flex;
+  text-align: center;
+}
+#page-content #blog #contenedorblog #blogprincipal span {
+  text-align: justify;
+}
+#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal {
+  width: 100%;
+  margin: 5%;
+}
+#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #update {
+  font-size: 12px;
+  color: #f00000;
+}
+#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #estadisticaprincipal {
+  width: 50%;
+  border-radius: 0;
+}
+#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto {
+  width: 100%;
+}
+#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p #coment {
+  font-size: 12px;
+}
+#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p .correcciontextoblogprincipal {
+  color: #2d314d;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  display: flex;
+  text-align: left;
+}
+#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p #tituloblogprincipal {
+  font-size: 45px;
+}
+#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p #estadisticas {
+  padding-top: 40px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p #estadisticas div {
+  display: flex;
+}
+#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p #estadisticas p {
+  opacity: 0.7;
+  width: 25%;
+  text-align: center;
+}
+#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p #estadisticas span {
+  font-size: 45px;
+  font-weight: 900;
+}
+#page-content #blog #contenedorblog #filminablog {
+  display: flex;
+  justify-content: flex-end;
+}
+#page-content #blog #contenedorblog #filminablog #filminafototextblog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+#page-content #blog #contenedorblog #filminablog #filminafototextblog #lastblog {
+  text-align: center;
+  position: relative;
+}
+#page-content #blog #contenedorblog #filminablog #filminafototextblog #lastblog p {
+  margin-top: 0;
+  font-size: 35px;
+}
+#page-content #blog #contenedorblog #filminablog #filminafototextblog .fototarregloblog {
+  width: 60%;
+  height: auto;
+  padding: 0;
+  background-color: #e2e1e1;
+  margin-bottom: 75px;
+}
+#page-content #blog #contenedorblog #filminablog #filminafototextblog .fototblog {
+  background-color: #e2e1e1;
+  width: 60%;
+  height: auto;
+  padding: 0;
+  margin: 2%;
+  margin-bottom: 75px;
+}
+#page-content #about {
+  margin: 0;
+  padding: 0;
+}
+#page-content #about #contenedorapp {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding-bottom: 200px;
+}
+#page-content #about #contenedorapp #contenedorapptitulo {
+  font-size: 80px;
+  font-weight: 800;
+  margin-top: 0;
+  padding-top: 100px;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+#page-content #about #contenedorapp #contenedorappimagen {
+  margin: auto;
+  width: 50%;
+  border-radius: 5%;
+  align-items: center;
+}
+#page-content #about #contenedorapp #parrafoapp {
+  margin-top: 0;
+  padding-bottom: 100px;
+}
+#page-content #about #filminaAbout {
+  display: flex;
+  position: relative;
+}
+#page-content #about #filminaAbout #contenedorTextoAbout {
+  padding: 100px 0px 100px 0px;
+  padding-left: 12%;
+  position: relative;
+  width: 38%;
+  height: auto;
+}
+#page-content #about #filminaAbout #contenedorTextoAbout p {
+  padding-right: 10%;
+}
+#page-content #about #filminaAbout #contenedorTextoAbout #parrafoAbout {
+  font-size: 15px;
+  opacity: 0.7;
+  line-height: 25px;
+}
+#page-content #about #filminaAbout #contenedorTextoAbout div span {
+  font-size: 45px;
+  font-weight: 400;
+}
+#page-content #about #filminaAbout #contenedorTextoAbout #meet {
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  color: #1c4eaa;
+}
+#page-content #about #filminaAbout #contenedorImagenAbout {
+  display: flex;
+  width: 60vw;
+  height: auto;
+  justify-content: flex-end;
+}
+#page-content #about #filminaAbout #contenedorImagenAbout #imagenAbout {
+  width: 100%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#page-content #contact {
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+#page-content #contact #formcontact {
+  width: 70%;
+  margin: auto;
+}
+#page-content #contact #formcontact .form-row {
+  padding-bottom: 50px;
+}
+#page-content #contact #formcontact .form-row #inputhelp {
+  padding-top: 100px;
+}
+#page-content #contact #formcontact .form-row .contenedoropcionform {
+  color: #2d314d;
+  padding: 5px;
+}
+#page-content #contact #formcontact .form-row .contenedoropcionform .form-control {
+  font-family: "Public Sans", sans-serif;
+  color: #2d314d;
+  opacity: 0.7;
+  padding-left: 15px;
+}
+#page-content #contact #formcontact .form-row .contenedoropcionform label {
+  font-family: "Public Sans", sans-serif;
+  font-size: 35px;
+  color: #2d314d;
+  opacity: 0.7;
+}
+#page-content #contact #formcontact .form-row .contenedoropcionform input {
+  width: 200px;
+  height: 1.5em;
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.5em;
+  border-radius: 30px;
+}
+#page-content #contact #formcontact .form-row .contenedoropcionform input:focus {
+  outline: none;
+  border: 2px solid #31d35c;
+}
+#page-content #contact #formcontact .form-row .contenedoropcionform textarea {
+  font-size: 1.5em;
+  border-radius: 20px;
+}
+#page-content #contact #formcontact .form-row .contenedoropcionform textarea:focus {
+  outline: none;
+  border: 2px solid #31d35c;
+}
+#page-content #contact #formcontact .form-row .contenedoropcionform #help {
+  width: 100%;
+  height: 300px;
+}
+#page-content #contact #formcontact #submitform .form-check #checkterms {
+  width: 18px;
+  height: 18px;
+}
+#page-content #contact #formcontact #submitform .form-check label #termsandconditions {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  color: #2d314d;
+  opacity: 0.8;
+}
+#page-content #download-app {
+  height: 70vh;
+}
+#page-content #download-app .store {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+}
+#page-content #download-app .store a {
+  position: relative;
+  border: 0;
+  text-decoration: none;
+  line-height: 38px;
+  display: inline-block;
+  padding: 0px 20px 0px 36px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px;
+}
+#page-content #download-app .store a:hover {
+  color: #fff;
+}
+#page-content #download-app .store a:hover:after {
+  -webkit-animation: shine 0.8s ease;
+  -moz-animation: shine 0.8s ease;
+  -o-animation: shine 0.8s ease;
+  -ms-animation: shine 0.8s ease;
+  animation: shine 0.8s ease;
+}
+@-moz-keyframes shine {
+  to {
+    left: 200px;
+  }
+}
+@-webkit-keyframes shine {
+  to {
+    left: 200px;
+  }
+}
+@-o-keyframes shine {
+  to {
+    left: 200px;
+  }
+}
+@keyframes shine {
+  to {
+    left: 200px;
+  }
+}
+#page-content #download-app .store a:after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  left: -200px;
+  -webkit-transform: skewX(-25deg);
+  -moz-transform: skewX(-25deg);
+  -o-transform: skewX(-25deg);
+  -ms-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+  background-image: -webkit-linear-gradient(left, transparent, rgba(255, 255, 255, 0.14), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(255, 255, 255, 0.14), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(255, 255, 255, 0.14), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(255, 255, 255, 0.14), transparent);
+  background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.14), transparent);
+  height: 50px;
+}
+#page-content #download-app .store a i {
+  font-size: 0.8em;
+  position: absolute;
+  margin-top: 9px;
+  margin-left: -20px;
+}
+#page-content #download-app .store .appstore {
+  background: #191919;
+}
+#page-content #download-app .store .playstore {
+  background: #22afc2;
+}
+
+.menubar {
+  display: none;
+}
+
+.filminafototext {
+  width: 80%;
+  margin-top: 30px;
+  padding-left: 12%;
+  display: flex;
+}
+
+#footerdiv {
+  justify-content: center;
+  position: relative;
+  display: flex;
+  height: 200px;
+  background-color: #2d314d;
+}
+#footerdiv #todosloslogos {
+  margin-right: 2%;
+  width: 30%;
+}
+#footerdiv #todosloslogos #filmina1 {
+  padding-left: 40%;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+#footerdiv #todosloslogos #filmina2 {
+  padding-left: 40%;
+}
+#footerdiv #todosloslogos #filmina2 .logosfoo {
+  margin-right: 3%;
+}
+#footerdiv #todaslasopciones {
+  font-family: "Public Sans", sans-serif;
+  width: 30%;
+  margin-top: 50px;
+  color: white;
+  display: flex;
+}
+#footerdiv #todaslasopciones #ladoa {
+  position: relative;
+  margin-right: 30%;
+}
+#footerdiv #todaslasopciones #ladoa .opcionesfoo {
+  margin-bottom: 20px;
+}
+#footerdiv #todaslasopciones #ladob .opcionesfoo {
+  margin-bottom: 20px;
+}
+#footerdiv #botonfoo {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#footerdiv #easyfoo {
+  margin-bottom: 40px;
+  opacity: 0.7;
+  font-size: 12px;
+  color: white;
+  font-family: "Public Sans", sans-serif;
+}
+
+.attribution {
+  position: relative;
+  background-color: #2d314d;
+  color: white;
+  font-size: 0.8em;
+  padding-left: 1vw;
+}
+
+.adaptarimagen {
+  height: 150px;
+  overflow: hidden;
+}
+.adaptarimagen .imgbox {
+  width: 100%;
+}
+
+.autor {
+  padding-top: 20px;
+  font-size: 10px;
+  width: 80%;
+  margin: auto;
+  opacity: 0.7;
+}
+
+.filminatextochico {
+  margin: auto;
+  width: 80%;
+}
+.filminatextochico .verde:hover {
+  color: #31d35c;
+  cursor: pointer;
+}
+.filminatextochico .verde:hover .textobotones3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.filminatextochico .textobotones4 {
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+.botonrequest {
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  text-align: center;
+  border: 0px solid;
+  border-radius: 40px;
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(90deg, #31d35c 0%, #2bb7da 100%);
+  transition: 300ms;
+}
+.botonrequest:hover {
+  opacity: 0.5;
+}
+
+p {
+  color: #2d314d;
+  font-family: "Public Sans", sans-serif;
+}
+
+.fotot2 {
+  background-color: white;
+  width: 25%;
+  height: auto;
+  padding: 0;
+  margin: 1%;
+  margin-bottom: 75px;
+}
+
+@media all and (max-width: 1300px) {
+  #page-content #home #filmina #izquierda {
+    width: 50%;
+  }
+  #page-content #home #filmina #izquierda #next #parrafonext {
+    font-size: 30px;
+  }
+  #page-content #home #filmina #derecha {
+    width: 50%;
+  }
+  #page-content #home #celular1 {
+    left: 325px;
+  }
+
+  header .container .ulclass #logo {
+    padding-right: 10%;
+  }
+}
+@media all and (max-width: 1000px) {
+  #page-content #home #filmina {
+    padding-left: 0;
+  }
+  #page-content #home #filmina #derecha {
+    display: none;
+  }
+  #page-content #home #filmina #izquierda {
+    width: 100%;
+    position: relative;
+    margin: 5%;
+    padding: 0;
+  }
+  #page-content #home #filmina #izquierda #next {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  #page-content #home #filmina #izquierda #next #parrafonext {
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+  }
+  #page-content #home #filmina #izquierda #take {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+  }
+  #page-content #home #filmina #izquierda #take #parrafotake {
+    display: flex;
+    text-align: center;
+  }
+  #page-content #home #filmina #izquierda #botonrequestpos {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  #page-content #home #celular1 {
+    display: none;
+  }
+
+  #about #filminaAbout {
+    display: block;
+  }
+  #about #filminaAbout #contenedorTextoAbout {
+    margin: auto;
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+    width: 70%;
+    padding: 100px 0px 20px 0px;
+  }
+  #about #filminaAbout #contenedorTextoAbout p {
+    padding-right: 0;
+  }
+  #about #filminaAbout #contenedorImagenAbout {
+    margin: auto;
+    justify-content: center;
+    width: auto;
+  }
+  #about #filminaAbout #imagenAbout {
+    width: 70%;
+    padding-right: 0;
+    margin: auto;
+  }
+
+  header .container .ulclass #logo {
+    padding-left: 4%;
+    padding-right: 3%;
+  }
+
+  .filminafototext {
+    padding-left: 0;
+    margin: auto;
+  }
+
+  #blog #contenedorblog {
+    flex-direction: column;
+  }
+  #blog #contenedorblog #blogprincipal {
+    width: 90vw;
+    margin: auto;
+  }
+  #blog #contenedorblog #blogprincipal span {
+    text-align: justify;
+  }
+
+  #contact #download-app .store {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 650px) {
+  #about #contenedor-app #contenedorapptitulo {
+    font-size: calc(3em + 2vw);
+  }
+
+  #blog #contenedorblog #blogprincipal #filminablogprincipal #estadisticas span {
+    font-size: calc(1.5em + 2vw);
+  }
+  #blog #contenedorblog #blogprincipal #filminablogprincipal #estadisticas p {
+    font-size: calc(0.5em + 2vw);
+  }
+
+  #footerdiv {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  #footerdiv #todosloslogos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #footerdiv #todosloslogos #filmina1 {
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  #footerdiv #todosloslogos #filmina2 {
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  #footerdiv #todaslasopciones {
+    width: 100%;
+    flex-direction: column;
+  }
+  #footerdiv #todaslasopciones #ladoa {
+    margin-right: 0px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  #footerdiv #todaslasopciones #ladob {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  #footerdiv #botonfoo {
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  #page-content #home #imagenmovil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #page-content #home #imagenmovil #versionmovil {
+    width: 100%;
+  }
+  #page-content #home #imagenmovil #corregirposcelular {
+    display: flex;
+    position: absolute;
+    Top: 0;
+  }
+  #page-content #home #imagenmovil #corregirposcelular #movilcelular2 {
+    width: 100%;
+  }
+  #page-content #home #segundafilmina #last {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  #page-content #home #segundafilmina .filminafototext .fotot2 {
+    width: 85%;
+    position: relative;
+    text-align: left;
+  }
+  #page-content #home #filmina {
+    position: relative;
+  }
+  #page-content #home #filmina #derecha {
+    display: none;
+  }
+  #page-content #home #filmina #izquierda {
+    width: 100%;
+    position: relative;
+    margin: 0% 5% 5% 5%;
+    padding: 0;
+  }
+  #page-content #home #filmina #izquierda #next {
+    width: 100%;
+    padding: 0px;
+  }
+  #page-content #home #filmina #izquierda #next #parrafonext {
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+  }
+  #page-content #home #filmina #izquierda #take {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  }
+  #page-content #home #filmina #izquierda #take #parrafotake {
+    display: flex;
+    text-align: center;
+  }
+  #page-content #home #filmina #izquierda #botonrequestpos {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  #page-content #home #chose {
+    position: relative;
+  }
+  #page-content #home #chose #titulowhy {
+    display: flex;
+    justify-content: center;
+  }
+  #page-content #home #chose #titulowhy #why {
+    display: flex;
+    text-align: center;
+    padding-left: 0px;
+  }
+  #page-content #home #chose .filminafototext .fotot {
+    width: 85%;
+    position: relative;
+    margin: 2%;
+    text-align: center;
+  }
+  #page-content #home #chose #welever {
+    display: flex;
+    justify-content: center;
+  }
+  #page-content #home #chose #welever #leverage {
+    width: 85%;
+    display: flex;
+    text-align: center;
+    opacity: 0.7;
+    padding-left: 0%;
+  }
+  #page-content #home #celular1 {
+    display: none;
+  }
+  #page-content #home #celular1 #movilcelular {
+    width: 100%;
+    display: block;
+    position: 0;
+  }
+
+  header .container .ulclass #logo {
+    padding-left: 20px;
+  }
+  header .container .ulclass .tareas {
+    display: none;
+  }
+  header .container .ulclass .botonN {
+    display: none;
+  }
+
+  .menubar {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .filminafototext {
+    padding: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /*#idcelulares{
+      display: none;  NO ESTÁ EN NINGUN SITIO
+  }*/
+}
+
+/*# sourceMappingURL=output.css.map */
