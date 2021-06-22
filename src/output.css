@@ -285,24 +285,6 @@ header .tareas:hover {
 #page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p #tituloblogprincipal {
   font-size: 45px;
 }
-#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p #estadisticas {
-  padding-top: 40px;
-  display: flex;
-  position: relative;
-  justify-content: center;
-}
-#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p #estadisticas div {
-  display: flex;
-}
-#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p #estadisticas p {
-  opacity: 0.7;
-  width: 25%;
-  text-align: center;
-}
-#page-content #blog #contenedorblog #blogprincipal #filminablogprincipal #filminablogprincipalfoto p #estadisticas span {
-  font-size: 45px;
-  font-weight: 900;
-}
 #page-content #blog #contenedorblog #filminablog {
   display: flex;
   justify-content: flex-end;
@@ -345,6 +327,24 @@ header .tareas:hover {
   background-color: #f3f3f3;
   text-align: center;
   padding-bottom: 200px;
+}
+#page-content #about #contenedorapp #estadisticas {
+  padding-top: 40px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+#page-content #about #contenedorapp #estadisticas div {
+  display: flex;
+}
+#page-content #about #contenedorapp #estadisticas p {
+  opacity: 0.7;
+  width: 25%;
+  text-align: center;
+}
+#page-content #about #contenedorapp #estadisticas span {
+  font-size: 45px;
+  font-weight: 900;
 }
 #page-content #about #contenedorapp #contenedorapptitulo {
   font-size: 80px;
@@ -809,15 +809,14 @@ p {
   }
 }
 @media all and (max-width: 650px) {
-  #about #contenedor-app #contenedorapptitulo {
-    font-size: calc(3em + 2vw);
-  }
-
-  #blog #contenedorblog #blogprincipal #filminablogprincipal #estadisticas span {
+  #about #contenedor-app #estadisticas span {
     font-size: calc(1.5em + 2vw);
   }
-  #blog #contenedorblog #blogprincipal #filminablogprincipal #estadisticas p {
+  #about #contenedor-app #estadisticas p {
     font-size: calc(0.5em + 2vw);
+  }
+  #about #contenedor-app #contenedorapptitulo {
+    font-size: calc(3em + 2vw);
   }
 
   #footerdiv {

@@ -402,30 +402,7 @@ header {
                             font-size: 45px;
                         }
 
-                        #estadisticas{
-                            padding-top: 40px;
-                            display: flex;
-                            position: relative;
-                            justify-content: center;
-
-                            div {
-                                display: flex;
-                                
-                            }
-
-                            p{
-                                opacity: 0.7;
-                                width: 25%;
-                                text-align: center;
-                            }
-
-                            span{
-                                font-size: 45px;
-                                font-weight: 900;
-                            }
-
-
-                        }
+                        
                     }
                   
                     
@@ -488,10 +465,36 @@ header {
         padding: 0;
 
         #contenedorapp{
-
             background-color: rgb(243, 243, 243);    
             text-align: center;
             padding-bottom: 200px;
+            
+
+                #estadisticas{
+                            padding-top: 40px;
+                            display: flex;
+                            position: relative;
+                            justify-content: center;
+
+                            div {
+                                display: flex;
+                                
+                            }
+
+                            p{
+                                opacity: 0.7;
+                                width: 25%;
+                                text-align: center;
+                            }
+
+                            span{
+                                font-size: 45px;
+                                font-weight: 900;
+                            }
+
+
+                        }
+
 
             #contenedorapptitulo{
                 font-size: 80px;
@@ -1219,7 +1222,16 @@ p{
  #about{
      #contenedor-app{
 
+        #estadisticas{
 
+            span {
+                font-size: calc(1.5em + 2vw);
+            }
+        
+            p {
+                font-size: calc(0.5em + 2vw);
+            }
+        }
         #contenedorapptitulo {
             font-size: calc(3em + 2vw);
         }
@@ -1230,32 +1242,7 @@ p{
 
 
 
- 
-#blog{
 
-        #contenedorblog{    
-
-            #blogprincipal{
-
-                #filminablogprincipal{ 
-
-                    #estadisticas{
-
-                        span {
-                            font-size: calc(1.5em + 2vw);
-                        }
-                    
-                        p {
-                            font-size: calc(0.5em + 2vw);
-                        }
-                    }
-
-                }  
-
-            }
-        }
-
-    }
 
 
     
