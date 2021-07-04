@@ -9,7 +9,7 @@ Con ese objetivo utilicé JS para cargar las múltiples secciones de manera din�
 ## [Live DEMO](https://dvdolivera.github.io/EasyBank/)
 
 + HTML5
-+ CSS3
++ SCSS - CSS3
 + Javascript
 + GoogleFonts
 + [AOS Library](https://michalsnik.github.io/aos/)
