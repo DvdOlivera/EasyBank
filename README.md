@@ -14,4 +14,3 @@ Con ese objetivo utilicé JS para cargar las múltiples secciones de manera din�
 + GoogleFonts
 + [AOS Library](https://michalsnik.github.io/aos/)
 + [Font Awesome](https://fontawesome.com/)
-+ [Frontendmentor](https://www.frontendmentor.io)
