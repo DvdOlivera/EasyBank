@@ -473,6 +473,7 @@ header .tareas:hover {
 #page-content #download-app .store {
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin: auto;
   width: 50%;
