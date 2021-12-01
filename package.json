@@ -2,5 +2,25 @@
   "dependencies": {
     "aos": "^2.3.4",
     "sass": "^1.34.1"
+  },
+  "name": "easybank",
+  "description": "\"¿Cansado de manejar dinero en efectivo? ¡EasyBank te ofrece una solución! :mega: :moneybag:\"",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DvdOlivera/EasyBank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DvdOlivera/EasyBank/issues"
+  },
+  "homepage": "https://github.com/DvdOlivera/EasyBank#readme",
+  "devDependencies": {
+    "cypress": "^9.1.0"
   }
 }
