@@ -810,16 +810,6 @@ p {
   }
 }
 @media all and (max-width: 650px) {
-  #about #contenedor-app #estadisticas span {
-    font-size: calc(1.5em + 2vw);
-  }
-  #about #contenedor-app #estadisticas p {
-    font-size: calc(0.5em + 2vw);
-  }
-  #about #contenedor-app #contenedorapptitulo {
-    font-size: calc(3em + 2vw);
-  }
-
   #footerdiv {
     width: 100%;
     height: auto;
@@ -863,6 +853,15 @@ p {
     width: 100%;
   }
 
+  #page-content #about #contenedorapp #estadisticas span {
+    font-size: calc(1.0em + 1.5vw);
+  }
+  #page-content #about #contenedorapp #estadisticas p {
+    font-size: calc(0.4em + 1.8vw);
+  }
+  #page-content #about #contenedorapp #contenedorapptitulo {
+    font-size: calc(3em + 2vw);
+  }
   #page-content #home #imagenmovil {
     width: 100%;
     display: flex;

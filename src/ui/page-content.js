@@ -23,6 +23,7 @@ export function addInitialEventListeners() {
 }
 
 function IncrustarDownload(){
+    console.log('funciona');
     document.querySelector("#page-content").innerHTML = download;
 
 }
