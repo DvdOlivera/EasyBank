@@ -22,21 +22,21 @@
       <img src="images/logo.svg" alt="">
     </div>
     <div id="homebutton" class="tareas">
-      <button   href="" class="barra">Home</button>
+      <button data-seccion="home"  href="" class="barra">Home</button>
     </div>
 
     <div  class="tareas">
-      <button id="aboutbutton" href=""  class="barra">about</nutton>
+      <button id="aboutbutton" href="" data-seccion="about"  class="barra">about</nutton>
     </div>
     <div class="tareas">
-      <button id="contactbutton" href=""class="barra" >Contact</button>
+      <button id="contactbutton" href="" class="barra" data-seccion="contact" >Contact</button>
     </div>
     <div class="tareas">
-      <button id="blogbutton" href="" class="barra">Blog</button>
+      <button id="blogbutton" href="" data-seccion="blog" class="barra">Blog</button>
     </div>
     
     <div class="botonN">
-      <button class="botonrequest">Download app</button>
+      <button data-seccion="download"  class="botonrequest">Download app</button>
     </div>
   </div>
   <div id="hamburger" class="menubar">
@@ -53,10 +53,10 @@
   <div id="mobile-menu-content">
     <i id="mobile-menu-close" class="fa fa-close"></i>
     <div id="mobile-links">
-    <a id="mobile-home" class="mobile-menu-link">Home</a>
-    <a id="mobile-about" class="mobile-menu-link">About</a>
-    <a id="mobile-contact" class="mobile-menu-link">Contact</a>
-    <a id="mobile-blog" class="mobile-menu-link">Blog</a>
+    <a id="mobile-home" data-seccion="home" class="mobile-menu-link">Home</a>
+    <a id="mobile-about" data-seccion="about" class="mobile-menu-link">About</a>
+    <a id="mobile-contact" data-seccion="contact"  class="mobile-menu-link">Contact</a>
+    <a id="mobile-blog" data-seccion="blog" class="mobile-menu-link">Blog</a>
     </div>
   </div>
 </div>
@@ -90,7 +90,7 @@
         </p>
       </div>
       <div id="botonrequestpos"  >
-        <button class="botonrequest">Download app</button>
+        <button data-seccion="download" class="botonrequest">Download app</button>
       </div>
     </div>
     <div id="derecha">
@@ -340,7 +340,7 @@
     </div>
     
     <div id="botonfoo">
-      <button class="botonrequest">Download app</button>
+      <button data-seccion="download" class="botonrequest">Download app</button>
 
       <p id="easyfoo">
         © Easybank. All Rights Reserved

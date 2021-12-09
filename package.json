@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/DvdOlivera/EasyBank#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.2",
     "cypress": "^9.1.0"
   }
 }
